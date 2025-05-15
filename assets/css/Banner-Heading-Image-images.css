@@ -1,0 +1,59 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: none;
+  overflow: visible;
+}
+
+.gallery-container img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+div {
+}
+
+#masory-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+<ul class="text-end" > <li > First item</li > <li > Second item</li > <li > Third item</li > </ul > ul<ul class="text-end" > <ul class="text-end" > <li > First item</li > <li > First item</li > <li > Second item</li > <li > Second item</li > <li > Third item</li > <li > Third item</li > </ul > </ul > {
+}
+
+.hover-card {
+  background: var(--bs-gray-500);
+  transition: background-color 0.3s ease;
+}
+
+.hover-card:hover {
+  background: var(--bs-gray-300);
+}
+
+.hover-card {
+  transition: background 0.3s ease;
+}
+
+.hover-inner {
+  background: #898e92;
+  transition: background 0.3s ease;
+  border-radius: 15px;
+  height: 100%;
+  color: rgb(73, 80, 87);
+}
+
+.hover-inner:hover {
+  background: var(--bs-gray-300);
+}
+
